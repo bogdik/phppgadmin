@@ -75,7 +75,7 @@ class Connection {
 		$description = "PostgreSQL {$version}";
 
 		switch (substr($version,0,3)) {
-			case '11.': return 'Postgres11'; break;
+			case '11.': return 'Postgres10'; break;
 			case '10.': return 'Postgres10'; break;
 			case '9.6': return 'Postgres96'; break;
 			case '9.5': return 'Postgres95'; break;
